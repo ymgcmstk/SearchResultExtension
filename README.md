@@ -1,4 +1,4 @@
-SearchResultExtension
+Search Result Extension
 =====================
 
-Chrome extension to add various keyboard shortcuts on Google search result pages
+This is a chrome extension to add various keyboard shortcuts on Google search result pages.
