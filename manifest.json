@@ -1,0 +1,13 @@
+{
+    "name": "Google Search Result Keyboard Shortcut",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": ["tabs","https://www.google.co.jp/search*","https://www.google.com/search*"],
+    "content_scripts": [
+        {
+	    "matches": ["https://www.google.co.jp/search*","https://www.google.com/search*"],
+            "js": ["jquery.min.js", "content_scripts.js"]
+        }
+    ]
+
+}
